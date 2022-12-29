@@ -1,5 +1,36 @@
-﻿################################################################################
-# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
-################################################################################
 
-/base/test01/.vs/test01/FileContentIndex
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+*.lib
+*.sbr
+obj/
+_ReSharper*/
+.vs/
+#Nuget packages folder
+
+
+[Dd]ebug*/
+[Rr]elease*/
+[Tt]est[Rr]esult*
+packages/
+*.vcxproj*
+*.sln
+
