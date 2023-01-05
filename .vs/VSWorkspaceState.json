@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\base"
+    "\\base",
+    "\\base\\测试\\x64"
   ],
-  "SelectedNode": "\\base",
   "PreviewInSolutionExplorer": false
 }
