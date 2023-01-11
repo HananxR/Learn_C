@@ -42,7 +42,7 @@ void Factorization(unsigned int num) {
 	}
 }
 
-int main() {
+int main02() {
 	unsigned int n;
 	printf("请输入整数:\n");
 	scanf("%d", &n);
@@ -67,4 +67,22 @@ int main03() {
 	printf("%c\n", res);
 	return 0;
 }
+
+int gcd(int a, int b) {
+//求解a和b的最大公因数
+	if (b) {
+		while ((a %= b) && (b %= a));
+	}
+	return a + b;
+}
+
+int main() {
+
+	int a = 252;
+	int b = 105;
+	int res = gcd(a, b);
+	printf("%d\n", res);
+}
+
+
 
